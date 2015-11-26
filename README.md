@@ -30,10 +30,10 @@ You can manipulate your files in containers and see how the Redis KV store is ch
 
 Current Redis value limitation ends with 512mb per KV. So probably files which is more than 512 mb won't be inserted correctly.
 
-## Lacks
+## TODO
 
-1 - Skip directories when KV insert (I forgot it)
-2 - rename event from inotify needs deletion too.
+1. Skip directories when KV insert (I forgot it)
+2. rename event from inotify needs deletion too.
 
 ## LICENSE
 
